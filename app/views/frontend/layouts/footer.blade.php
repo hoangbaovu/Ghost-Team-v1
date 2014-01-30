@@ -33,7 +33,7 @@
 				<i class="fa fa-code"></i> Created by <a href="http://fb.com/ineo.vn" rel="author" title="Neo Vũ">Neo Vũ</a>
 			</p>
 			<p class="source-download pull-right">
-				<a href="/"><i class="fa fa-download"></i> Download v1</a>
+				<a href="/"><i class="fa fa-download"></i> Theme TheGhost</a>
 			</p>
 		</div>
 	</footer>

@@ -147,7 +147,7 @@ User Update ::
 					</select>
 
 					<span class="help-block">
-						Select a group to assign to the user, remember that a user takes on the permissions of the group they are assigned.
+						Chọn nhóm cho thành viên.
 					</span>
 				</div>
 			</div>
@@ -204,20 +204,51 @@ User Update ::
 			<div class="controls">
 				<div class="control-group">
 					<!-- Tên nhân vật -->
-				<div class="control-group">
-					{{ Form::label('last_name', 'Tên nhân vật', array('class' => 'awesome')); }}
-					{{ Form::text('last_name', $user->last_name) }}
-					{{ $errors->first('last_name', '<span class="alert alert-danger">:message</span>') }}
-				</div>
-
-				<!-- Tài khoản 2s -->
-				<div class="control-group">
-					<label class="control-label" for="uni">Tài khoản 2S</label>
-					<div class="controls">
-						{{ Form::text('uni', $user->uni) }}
-						{{ $errors->first('uni', '<span class="alert alert-danger">:message</span>') }}
+					<div class="control-group">
+						{{ Form::label('last_name', 'Tên nhân vật', array('class' => 'awesome')); }}
+						<div class="controls">
+						{{ Form::text('last_name', $user->last_name) }}
+						{{ $errors->first('last_name', '<span class="alert alert-danger">:message</span>') }}
+						</div>
 					</div>
-				</div>
+
+					<!-- Tài khoản 2s -->
+					<div class="control-group">
+						<label class="control-label" for="uni">Tài khoản 2S</label>
+						<div class="controls">
+							{{ Form::text('uni', $user->uni) }}
+							{{ $errors->first('uni', '<span class="alert alert-danger">:message</span>') }}
+						</div>
+					</div>
+
+					<!-- Tài khoản 2s -->
+					<div class="control-group">
+						<label class="control-label">Cống Hiến</label>
+						<div class="controls">
+							{{ Form::text('p_conghien', $user->p_conghien) }}
+							{{ $errors->first('p_conghien', '<span class="alert alert-danger">:message</span>') }}
+						</div>
+					</div>
+
+					<!-- Tài khoản 2s -->
+					<div class="control-group">
+						<label class="control-label">Phồn Vinh</label>
+						<div class="controls">
+							{{ Form::text('p_phonvinh', $user->p_phonvinh) }}
+							{{ $errors->first('p_phonvinh', '<span class="alert alert-danger">:message</span>') }}
+						</div>
+					</div>
+
+					<!-- Kỹ năng - Đường đua -->
+					<label>Đường đua</label>
+					<div class="controls">
+					{{ Form::select('status', array('lv1' => '1 Sao', 'lv2' => '2 Sao', 'lv3' => '3 Sao', 'lv4' => '4 Sao', 'lv5' => '5 Sao'), $user->skill_race); }}
+					</div>
+					<!-- Kỹ năng - Khiêu Vũ -->
+					<label>Khiêu Vũ</label>
+					<div class="controls">
+					{{ Form::select('status', array('lv1' => '1 Sao', 'lv2' => '2 Sao', 'lv3' => '3 Sao', 'lv4' => '4 Sao', 'lv5' => '5 Sao'), $user->skill_dance); }}
+					</div>
 				</div>
 			</div>
 		</div>

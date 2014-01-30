@@ -94,7 +94,7 @@
 				$('.nav-collapse').collapse({})
 		</script>
 
-		<script src="{{URL::to('ckeditor')}}/ckeditor.js"></script>
+		<script src="{{URL::to('assets/vendor/ckeditor')}}/ckeditor.js"></script>
 
 		<script>
         // Replace the <textarea id="editor1"> with a CKEditor

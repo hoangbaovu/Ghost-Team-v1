@@ -55,3 +55,5 @@ Sử dụng lệnh sau để tạo ra người dùng mặc định, nhóm ngư�
 Vào `http://your-host/public/admin` 
 
 -----
+
+Phát triển dựa trên Laravel 4 Starter Kit (http://github.com/brunogaspar/laravel4-starter-kit)

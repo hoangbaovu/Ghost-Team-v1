@@ -1,0 +1,145 @@
+// Responsive
+
+@include respond-to(desktops) {
+
+	#header {
+
+		#logo {
+			height: 0;
+			margin-top: 0;
+		}
+
+		.navbar-inverse .navbar-nav > li > a {
+			color: $white;
+			font-size: 1em;
+			text-transform: uppercase;
+		}
+
+		.nav {
+
+			> li {
+				padding: 6px 0 0;
+				margin: -6px 5px;
+
+				> a {
+					margin: 32px 15px;
+					padding:0;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 800px) {
+
+	#header {
+		height: 64px;
+		margin-top: 0;
+
+		h1 {
+			font-size: 1.6em;
+		}
+
+		#logo {
+			height: 0;
+			margin-top: 1px;
+			margin-left: 10px;
+		}
+
+		.nav > li {
+			padding: 0;
+			margin: 0;
+			border-top: 0;
+		}
+		.nav > li.active {
+			border-top: 0;
+		}
+		.nav > li:hover {
+			border-top: 0;
+		}
+	}
+
+	.navbar-collapse {
+		border-top: 0;
+		box-shadow: 0;
+
+		ul {
+			background-color: $transparent;
+		}
+	}
+
+	.navbar-nav {
+		margin: 8px -15px;
+	}
+
+	.navbar-inverse {
+		background-color: $black;
+
+		.navbar-toggle {
+			border-color: rgba(0, 0, 0, 0);
+		}
+
+		.navbar-nav > li > a {
+			color: $white;
+			font-size: 1em;
+			text-transform: uppercase;
+		}
+	
+	}
+
+	.navbar-nav > li > a {
+		padding-bottom: 15px;
+		padding-top: 15px;
+	}
+	.navbar-nav > li > a {
+		line-height: 20px;
+		padding-bottom: 10px;
+		padding-top: 10px;
+	}
+	.nav > li > a {
+		display: block;
+		padding: 10px 15px;
+		position: relative;
+	}
+
+	.header-separators, #info-dev {
+		display: none;
+	}
+
+	#info-neo {
+		p {
+			margin-left: 0;
+		}
+	}
+	
+	#header .nav > li > a {
+		margin: 24px 15px;
+	}
+}
+
+@include respond-to(tablets) {
+	.container > .navbar-header, .container > .navbar-collapse {
+		margin-left: -16px;
+		margin-right: -16px;
+	}
+
+	.navbar-collapse {
+		box-shadow: none;
+	}
+
+	#header .navbar-inverse .navbar-nav > li > a {
+		font-size: 1.2em;
+	}
+}
+
+@include respond-to(phones) {
+
+	.navbar-collapse {
+		border-top: 0;
+		box-shadow: 0;
+
+		ul {
+			background-color: $black;
+		}
+	}
+}

@@ -14,11 +14,11 @@
 ### 1) Tải Xuống
 #### 1.1) Clone the Repository
 
-	git clone https://github.com/neovu/2S-Team.git your-folder
+	git clone https://github.com/hoangbaovu/2S-Team.git your-folder
 
 #### 1.2) Tải trực tiếp từ Github
 
-	https://github.com/neovu/2S-Team/archive/master.zip
+	https://github.com/hoangbaovu/2S-Team/archive/master.zip
 
 -----
 

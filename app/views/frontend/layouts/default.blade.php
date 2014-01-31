@@ -51,10 +51,10 @@
 								<a data-toggle="dropdown" href="#">Tài Khoản</a>
 								<ul class="dropdown-menu" role="menu">
 									<li>
-										<a href="{{ Request::is('account/profile') }}"><i class="fa fa-user"></i>Thông tin cá nhân</a>
+										<a href="{{ URL::to('account/profile') }}"><i class="fa fa-user"></i>Thông tin cá nhân</a>
 									</li>
 									<li>
-										<a href="{{ Request::is('account/change-password') }}"><i class="fa fa-keyboard-o"></i>Đổi Mật Khẩu</a>
+										<a href="{{ URL::to('account/change-password') }}"><i class="fa fa-keyboard-o"></i>Đổi Mật Khẩu</a>
 									</li>
 									<li>
 										<a href="{{ route('logout') }}"><i class="fa fa-power-off"></i>Đăng Xuất</a>

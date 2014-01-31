@@ -251,11 +251,11 @@ class AppCommand extends Command {
 
 			// Show the success message.
 			$this->comment('');
-			$this->info('Admin group created successfully.');
+			$this->info('Các nhóm đã được tạo.');
 		}
 		catch (Cartalyst\Sentry\Groups\GroupExistsException $e)
 		{
-			$this->error('Group already exists.');
+			$this->error('Nhóm đã tồn tại');
 		}
 	}
 

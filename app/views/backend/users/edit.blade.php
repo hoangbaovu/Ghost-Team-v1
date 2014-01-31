@@ -242,12 +242,12 @@ User Update ::
 					<!-- Kỹ năng - Đường đua -->
 					<label>Đường đua</label>
 					<div class="controls">
-					{{ Form::select('status', array('lv1' => '1 Sao', 'lv2' => '2 Sao', 'lv3' => '3 Sao', 'lv4' => '4 Sao', 'lv5' => '5 Sao'), $user->skill_race); }}
+					{{ Form::select('skill_race', array('lv1' => '1 Sao', 'lv2' => '2 Sao', 'lv3' => '3 Sao', 'lv4' => '4 Sao', 'lv5' => '5 Sao'), $user->skill_race); }}
 					</div>
 					<!-- Kỹ năng - Khiêu Vũ -->
 					<label>Khiêu Vũ</label>
 					<div class="controls">
-					{{ Form::select('status', array('lv1' => '1 Sao', 'lv2' => '2 Sao', 'lv3' => '3 Sao', 'lv4' => '4 Sao', 'lv5' => '5 Sao'), $user->skill_dance); }}
+					{{ Form::select('skill_dance', array('lv1' => '1 Sao', 'lv2' => '2 Sao', 'lv3' => '3 Sao', 'lv4' => '4 Sao', 'lv5' => '5 Sao'), $user->skill_dance); }}
 					</div>
 				</div>
 			</div>

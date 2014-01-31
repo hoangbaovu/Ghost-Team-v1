@@ -97,10 +97,13 @@ class ProfileController extends AuthorizedController {
 		}
 		$user->status     = Input::get('status');
 		$user->gravatar   = Input::get('gravatar');
+		$user->youtube    = Input::get('gravatar');
+		$user->p_conghien = Input::get('p_conghien');
+		$user->p_phonvinh = Input::get('p_phonvinh');
 		$user->save();
 
 		// Redirect to the settings page
-		return Redirect::route('profile')->with('success', 'Account successfully updated');
+		return Redirect::route('profile')->with('success', 'Cập nhật thành công');
 	}
 
 }

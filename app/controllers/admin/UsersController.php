@@ -254,10 +254,19 @@ class UsersController extends AdminController {
 			$user->facebook   = Input::get('facebook');
 			$user->website    = Input::get('website');
 			$user->country    = Input::get('country');
-			$user->avatar     = Input::get('avatar');
+			if(isset($avt_url)){
+				$user->avatar     = $avt_url;
+			}
 			$user->status     = Input::get('status');
 			$user->activated   = Input::get('activated', $user->activated);
 			$user->permissions = Input::get('permissions');
+
+			$user->youtube    = Input::get('gravatar');
+			$user->p_conghien = Input::get('p_conghien');
+			$user->p_phonvinh = Input::get('p_phonvinh');
+
+			$user->skill_race = Input::get('skill_race');
+			$user->skill_dance = Input::get('skill_dance');
 
 			// Do we want to update the user password?
 			if ($password)

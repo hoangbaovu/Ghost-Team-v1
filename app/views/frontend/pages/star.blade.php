@@ -8,6 +8,7 @@ Star |
 
 {{-- Page content --}}
 @section('content')
+<div id="main" class="container">
 	<div class="ghost-star-header">
 		<div class="text-info">
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, placeat, doloribus corrupti dolorem magnam possimus ipsa repudiandae tenetur neque incidunt.</p>
@@ -79,4 +80,5 @@ Star |
 			</div>
 		</div>
 	</div>
+</div>
 @stop

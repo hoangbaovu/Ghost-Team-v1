@@ -7,6 +7,7 @@
 
 {{-- Page content --}}
 @section('content')
+<div id="main" class="container">
 	<article class="background-triangles">
 		<div class="star">
 			<h1>8</h1>
@@ -125,4 +126,5 @@
 			</ul>
 		</div>
 	</article>
+</div>
 @stop

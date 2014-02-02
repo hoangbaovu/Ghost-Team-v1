@@ -105,6 +105,15 @@ User Update ::
 				</div>
 			</div>
 
+			<!-- Youtube ID -->
+			<div class="control-group">
+				<label class="control-label" for="website">Youtube ID</label>
+				<div class="controls">
+					{{ Form::text('youtube', $user->youtube) }}
+					{{ $errors->first('youtube', '<span class="alert alert-danger">:message</span>') }}
+				</div>
+			</div>
+
 
 			<!-- Password -->
 			<div class="control-group {{ $errors->has('password') ? 'error' : '' }}">

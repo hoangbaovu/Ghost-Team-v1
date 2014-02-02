@@ -2,6 +2,7 @@
 
 {{-- Page content --}}
 @section('content')
+<div id="main" class="container">
 	@foreach ($posts as $post)
 	<article class="col-md-12 text-left">
 		<!-- Post Title -->
@@ -36,4 +37,5 @@
 			{{ $posts->links() }}
 		</div>
 	</div>
+</div>
 @stop

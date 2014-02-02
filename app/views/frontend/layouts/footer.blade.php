@@ -4,7 +4,7 @@
 				<h3>Kết Nối Cùng Chúng Tôi</h3>
 				<div class="social row">
 					<div class="col-md-4">
-						<a href="http://facebook.com/doitheghost" title="Fanpage Facebook">
+						<a href="@lang('default.fanpage')" title="Fanpage Facebook">
 							<span class="img-facebook">
 								Fanpage Facebook
 							</span>
@@ -12,7 +12,7 @@
 					</div>
 
 					<div class="col-md-4">
-						<a href="http://facebook.com/groups/doitheghost" title="Group Facebook">
+						<a href="@lang('default.group')" title="Group Facebook">
 							<span class="img-facebook">
 								Group Facebook
 							</span>
@@ -20,7 +20,7 @@
 					</div>
 
 					<div class="col-md-4">
-						<a href="http://bit.ly/1gjCUil" title="Group Zing Me">
+						<a href="@lang('default.group_zing')" title="Group Zing Me">
 							<span class="img-zingme">
 								Group Zing Me
 							</span>
@@ -28,7 +28,7 @@
 					</div>
 				</div>
 			<hr>
-			<p class="copyright"><i class="fa fa-flag-checkered"></i> TheGhost &copy; 2013.</p>
+			<p class="copyright"><i class="fa fa-flag-checkered"></i> @lang('default.footer_copyright') &copy; 2014.</p>
 			<p class="author pull-right">
 				<i class="fa fa-code"></i> Created by <a href="http://fb.com/ineo.vn" rel="author" title="Neo Vũ">Neo Vũ</a>
 			</p>

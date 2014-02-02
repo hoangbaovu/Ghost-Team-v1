@@ -10,9 +10,9 @@
 <div id="main" class="container">
 	<article class="background-triangles">
 		<div class="star">
-			<h1>8</h1>
-			<h2>69696</h2>
-			<h3>69</h3>
+			<h1>@lang('default.cap')</h1>
+			<h2>@lang('default.tich_luy')</h2>
+			<h3>@lang('default.xep_hang')</h3>
 		</div>
 	</article>
 	<article class="home-hot-member" style="padding: 0;">
@@ -76,7 +76,7 @@
 	</article> <!-- / hot-member -->
 	<article style="padding: 0;">
 		<div class="quote-ghost">
-			<h2 class="black">Tài năng để chiến thắng cuộc chơi, nhưng tinh thần đồng đội và sự thông minh mới giành được chức vô địch.</h2>
+			<h2 class="black">@lang('default.quote_ghost')</h2>
 		</div>
 	</article>
 	<article class="home-ghost-star">

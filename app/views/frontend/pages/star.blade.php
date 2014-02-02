@@ -11,7 +11,7 @@ Star |
 <div id="main" class="container">
 	<div class="ghost-star-header">
 		<div class="text-info">
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, placeat, doloribus corrupti dolorem magnam possimus ipsa repudiandae tenetur neque incidunt.</p>
+			<p>@lang('pages/star.text-info')</p>
 		</div>
 	</div>
 	<div class="ghost-star-content text-left">

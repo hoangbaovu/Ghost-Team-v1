@@ -10,7 +10,7 @@ class HomeController extends BaseController {
 			{
 				$query->withTrashed();
 			},
-		))->orderBy('created_at', 'DESC')->paginate();
+		))->orderBy('created_at', 'DESC')->take(3)->get();
 
 		return View::make('frontend.pages.home', compact('posts'));
 	}

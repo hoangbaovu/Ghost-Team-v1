@@ -40,9 +40,20 @@
 
 `app/config/database.php`.
 
+Tìm và sửa lại cho đúng thông số kết nối
+
+`'mysql' => array(
+	'host'      => '127.0.0.1',
+	'database'  => 'baovu_db', 		// Tên Database
+	'username'  => 'baovu.name.vn', 	// Tài khoản Database
+	'password'  => 'Neo@123', 		// Mật khẩu Database
+),`
+
 -----
 
-### 4) Sử dụng CMD( Windows+R) để cài đặt mới.
+### 4)
+
+Cachs1: Sử dụng CMD( Windows+R) để cài đặt mới.
 
 Sử dụng lệnh sau để tạo ra người dùng mặc định, nhóm người sử dụng của bạn và các dịch vụ khác.
 	

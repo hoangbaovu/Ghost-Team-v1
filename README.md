@@ -42,12 +42,12 @@
 
 Tìm và sửa lại cho đúng thông số kết nối
 
-`'mysql' => array(
+'mysql' => array(
 	'host'      => '127.0.0.1',
 	'database'  => 'baovu_db', 		// Tên Database
 	'username'  => 'baovu.name.vn', 	// Tài khoản Database
 	'password'  => 'Neo@123', 		// Mật khẩu Database
-),`
+),
 
 -----
 

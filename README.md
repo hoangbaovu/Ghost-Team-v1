@@ -11,6 +11,14 @@
 
 ## Hướng dẫn cài đặt
 
+### Video Hướng Dẫn
+
+##### #1) Hướng dẫn cài đặt Wamp Server -> http://bit.ly/1fMC3Et
+##### #2) Hướng dẫn tải xuống
+##### - 2.1) Hướng dẫn cài đặt GIT -> http://bit.ly/1lENGT9
+
+-----
+
 ### 1) Tải Xuống
 #### 1.1) Clone the Repository
 

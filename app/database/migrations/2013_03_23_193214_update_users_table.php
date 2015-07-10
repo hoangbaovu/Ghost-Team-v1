@@ -21,7 +21,7 @@ class UpdateUsersTable extends Migration {
 			$table->string('facebook')->default('100006660883971');
 			$table->string('gravatar')->nullable();
 			$table->string('uni')->default('26894034');
-			$table->text('status')->default('Welcome To TheGhost');
+			$table->text('status')->default('');
 			$table->string('website')->nullable();
 			$table->string('skill_race')->default('lv1');
 			$table->string('skill_dance')->default('lv1');

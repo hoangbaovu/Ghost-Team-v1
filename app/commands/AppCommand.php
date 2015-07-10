@@ -51,9 +51,9 @@ class AppCommand extends Command {
 	{
 		$this->comment('=====================================');
 		$this->comment('');
-		$this->info('  Bước: 1');
+		$this->info('  Buoc: 1');
 		$this->comment('');
-		$this->info('    Hãy làm theo hướng dẫn');
+		$this->info('    Hay lam theo huong dan');
 		$this->comment('');
 		$this->comment('-------------------------------------');
 		$this->comment('');
@@ -68,9 +68,9 @@ class AppCommand extends Command {
 		$this->comment('');
 		$this->comment('=====================================');
 		$this->comment('');
-		$this->info('  Bước: 2');
+		$this->info('  Buoc: 2');
 		$this->comment('');
-		$this->info('    Chuẩn bị ứng dụng');
+		$this->info('    Dang khoi tao ung dung...');
 		$this->comment('');
 		$this->comment('-------------------------------------');
 		$this->comment('');
@@ -157,13 +157,13 @@ class AppCommand extends Command {
 		do
 		{
 			// Ask the user to input the email address
-			$email = $this->ask('Nhập Email: ');
+			$email = $this->ask('Nhap Email: ');
 
 			// Check if email is valid
 			if ($email == '')
 			{
 				// Return an error message
-				$this->error('Email không hợp lệ, hãy thử lại.');
+				$this->error('Email khong hop le, hay thu lai.');
 			}
 
 			// Store the email address
@@ -183,13 +183,13 @@ class AppCommand extends Command {
 		do
 		{
 			// Ask the user to input the user password
-			$password = $this->ask('Mật khẩu Admin: ');
+			$password = $this->ask('Mat khau Admin: ');
 
 			// Check if email is valid
 			if ($password == '')
 			{
 				// Return an error message
-				$this->error('Mật khẩu không hợp lệ, hãy thử lại.');
+				$this->error('Mat khau khong hop le, hay thu lai.');
 			}
 
 			// Store the password
@@ -294,7 +294,7 @@ class AppCommand extends Command {
 
 		// Show the success message
 		$this->comment('');
-		$this->info('Đã cài đặt xong');
+		$this->info('Da cai dat xong');
 		$this->comment('');
 	}
 
@@ -307,10 +307,10 @@ class AppCommand extends Command {
 	{
 		// Prepare the user data array.
 		$data = array(
-			'first_name' => 'John',
-			'last_name'  => 'Doe',
-			'email'      => 'john.doe@example.com',
-			'password'   => 'johndoe',
+			'first_name' => 'ineo',
+			'last_name'  => 'vn',
+			'email'      => 'info@ineo.vn',
+			'password'   => 'ineo',
 			'activated'  => 1,
 		);
 

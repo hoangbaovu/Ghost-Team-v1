@@ -30,10 +30,10 @@
 			<hr>
 			<p class="copyright"><i class="fa fa-flag-checkered"></i> @lang('default.footer_copyright') &copy; 2014.</p>
 			<p class="author pull-right">
-				<i class="fa fa-code"></i> Created by <a href="http://fb.com/ineo.vn" rel="author" title="Neo Vũ">Neo Vũ</a>
+				<i class="fa fa-code"></i> Created by <a href="//ineo.vn" rel="author" title="Hoàng Bảo Vũ">ineo.vn</a>
 			</p>
 			<p class="source-download pull-right">
-				<a href="/"><i class="fa fa-download"></i> Theme TheGhost</a>
+				<a href="//github.com/hoangbaovu/Ghost-Team-v1"><i class="fa fa-download"></i> Theme TheGhost</a>
 			</p>
 		</div>
 	</footer>

@@ -15,7 +15,7 @@ return array(
 	// Trang Chủ
 
 	'tich_luy' => '69696',
-	'cap' => '8',
+	'cap' => '12',
 	'xep_hang' => '69',
 
 	'quote_ghost' => 'Tài năng để chiến thắng cuộc chơi, nhưng tinh thần đồng đội và sự thông minh mới giành được chức vô địch.',
